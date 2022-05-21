@@ -1,0 +1,10 @@
+<img src="images\download.jpg" class="Logo-img"></img>
+  <h1 class="Heading">Kuttey!</h1>
+
+  .Logo-img
+{
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+    width: 15%;
+}
