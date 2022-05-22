@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css\style.css" type="text/css">
 </head>
 
-<body>
+<body style="background-color: #E3E2DF;">
 
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <!-- Brand -->
@@ -22,16 +22,16 @@
     <!-- Links -->
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="#Section1">About Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Our Team</a>
+        <a class="nav-link" href="#Section2">Our Team</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact us</a>
+        <a class="nav-link" href="giveaway.php" target="_blank">Giveaway</a>
       </li>
 
-      
+
     </ul>
   </nav>
 
@@ -69,17 +69,18 @@
   </div>
   <hr>
   <section class="my-5">
-    <div>
+    <div class="main" id="Section1">
       <h2 class="text-center">About Us</h2>
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class="col-lg-6 col-md-6 col-12 my-5">
           <img src="images\download.jpg" alt="Kuttey !" class="img-fluid">
         </div>
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class="col-lg-6 col-md-6 col-12 my-3">
           <h3 class="display-4  ">We are the Kuttey Animal Support Agency</h3>
           <h4 class="py-3">We have really become super active in rescuing animals, and it has made our life feel so much better. We can’t even express to you how happy it has made us.Our dogs are all rescued from the streets, shelters and dangerous circumstances. We pay for all their medical care, food and shelter needs before we adopt them out to the best homes possible. Because of our love of dogs and the many dangers of living on the streets as a dog, Stray Dog Adoption was created.</h4>
+          <a href="about.php" class="btn btn-danger">click here to learn more</a>
         </div>
       </div>
     </div>
@@ -89,21 +90,21 @@
     <div>
       <h2 class="text-center">Our Team</h2>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="Section2">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-12">
           <div class="card" style="width:400px">
-            <img class="card-img-top" src="images\R.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="Team\Prakhar.png" alt="Card image" style="width:100%">
             <div class="card-body">
               <h4 class="card-title">Prakhar Martand</h4>
-              <p class="card-text"> Adopting Stray Dogs is one of the best experiences anyone can have. You adopt a dog, then you will enjoy the love of it. As we know that Dog's love for their master is unmatchable in this world. So you must able to give them good food and shelter along with any other sorts of care need by them.</p>
+              <p class="card-text"> Adopting Stray Dogs is one of the best experiences anyone can have. You adopt a dog, then you will enjoy the love of it. As we know that Dog's love for their master is unmatchable in this world. So you must able to give them good food and shelter along with any other sorts of care need by them.Help us in the mission by being part of it, I motivate you</p>
               <a href="#" class="btn btn-success">See Profile</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-12">
           <div class="card" style="width:400px">
-            <img class="card-img-top" src="images\R.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="Team\Chaitanya.png" alt="Card image" style="width:100%">
             <div class="card-body">
               <h4 class="card-title">Chaitanya </h4>
               <p class="card-text">This a great cause to join and totally soul filling.I myself love caring dogs and truly its a role I love. "Lovingly helping the unwanted, abused and abandoned dogs of Southeast Texas for over 20 years."Stray dogs are an extraordinary group of living creatures who choose to live as wanderers of the street. It is nothing short of admirable. </p>
@@ -116,7 +117,7 @@
             <img class="card-img-top" src="images\R.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
               <h4 class="card-title">Snofie</h4>
-              <p class="card-text">Hello my name is DOG, and I am soo sick of these people asking for money to adopt me.  I don't even care I'm trying to sleep here and you guys sound like a bunch of telemarketers.  How about instead of asking for money for me, you help someone else like me who gets stuck in shelters? Would not that be great for all my kinds :-)</p>
+              <p class="card-text">Hello my name is Snofie, and I am soo sick of these people asking for money to adopt me.  I don't even care I'm trying to sleep here and you guys sound like a bunch of telemarketers.  How about instead of asking for money for me, you help someone else like me who gets stuck in shelters? Would not that be great for all my kinds :-)</p>
               <a href="#" class="btn btn-success">See Profile</a>
             </div>
           </div>
@@ -162,25 +163,25 @@
   </section>
   <hr>
   <section class="my-5">
-      <div>
-        <h2 class="text-center">Have good pics of Dog ? Upload it to us and become a part of our gallery </h2>
-      </div>
-      <div class="w-50 m-auto">
+    <div>
+      <h2 class="text-center">Have good pics of Dog ? Upload it to us we would love to add it in our gallery </h2>
+    </div>
+    <div class="w-50 m-auto">
 
-        <form action="uploads.php" method="post" enctype="multipart/form-data">
+      <form action="uploads.php" method="post" enctype="multipart/form-data">
         <div class="text-center">
-          <label for="filepic">Upload your picture here </label>
+          <label for="filepic" class="text text-danger">Upload your picture here :</label>
           <input type="file" name="file" id="file">
         </div>
         <div class="text-center">
-          <button type="submit" name = "submit1" class="btn btn-success my-3">Submit</button>
+          <button type="submit" name="submit1" class="btn btn-success my-3">Submit</button>
 
         </div>
 
 
-        </form>
+      </form>
 
-      </div>
+    </div>
   </section>
   <hr>
   <section class="my-5">

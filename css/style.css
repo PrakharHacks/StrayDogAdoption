@@ -36,3 +36,7 @@
     font-family: courier;
     font-weight: bolder;
 }
+html
+{
+    scroll-behavior:smooth;
+}
