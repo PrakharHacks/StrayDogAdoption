@@ -55,4 +55,3 @@ mysqli_query($conn, $query);
 
 
 header("Location: giveaway.php");
-?>
