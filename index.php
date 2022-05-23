@@ -10,11 +10,13 @@
 </head>
 
 <body style="background-color: #E3E2DF;">
-
+  <audio id="audio_play">
+    <source src="bark_audio.mp3" type="audio/mp3">
+  </audio>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <!-- Brand -->
     <a class="navbar-brand" href="index.php">
-      <img src="images\download.jpg" width="45" alt="" class="d-inline-block align-middle mr-2">
+      <img src="images\download.jpg" width="45" alt="" class="d-inline-block align-middle mr-2" onclick="document.getElementById('audio_play').play(); return false;" onmouseover="this.width=150;" onmouseout="this.width=50;">
       <!-- Logo Text -->
       <span class="text-uppercase font-weight-bold">Kuttey!</span>
     </a>
@@ -48,7 +50,7 @@
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images\Stray_Dog_Bahamas.png" alt="Los Angeles">
+        <img src="images\Dogs_Puppy.png" alt="Los Angeles">
       </div>
       <div class="carousel-item">
         <img src="images\Stray-dog.png" alt="Chicago">
@@ -80,7 +82,7 @@
         <div class="col-lg-6 col-md-6 col-12 my-3">
           <h3 class="display-4  ">We are the Kuttey Animal Support Agency</h3>
           <h4 class="py-3">We have really become super active in rescuing animals, and it has made our life feel so much better. We can’t even express to you how happy it has made us.Our dogs are all rescued from the streets, shelters and dangerous circumstances. We pay for all their medical care, food and shelter needs before we adopt them out to the best homes possible. Because of our love of dogs and the many dangers of living on the streets as a dog, Stray Dog Adoption was created.</h4>
-          <a href="about.php" class="btn btn-danger">click here to learn more</a>
+          <a href="about.php" class="btn btn-danger" target="_blank">click here to learn more</a>
         </div>
       </div>
     </div>

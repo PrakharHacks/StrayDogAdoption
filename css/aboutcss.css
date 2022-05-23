@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+    @font-face {
+        font-family:'mosk';
+        src: url("https://www.behance.net/gallery/33966928/Mosk-Typeface-(Free)/modules/214501294");
+    }
+h1 { color: #cd4e14; font-family: 'Mosk', sans-serif; font-size: 120px; font-weight: normal; line-height: 138px;
+     margin: 5px 5px 50px;  text-align: center; text-shadow: 1px 2px 2px #270c02; padding-top: 15px; }
+
+h2 { color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 28px; margin: 0; }
+
+p {
+    padding-left: 3px;
+    color: antiquewhite; font-size: 23px;
+}
+
+body {
+  
+        background-image: radial-gradient(#7e7b7b 20%, #030101 20%);
+        background-position: 0 0;
+        background-size: 5px 5px;
+        height: 100%;
+        width: 100%;
+    
+  }
+
+  div.mission {
+      padding-left: 20px;
+      height: 170px;
+      width: 400px;
+      padding: 20px;
+      background-color: #95a313;
+      background-blend-mode:color-dodge;
+      border: rgb(150, 81, 49);
+      box-sizing: content-box;
+      border-radius: 5px;
+      margin-left: 20px;
+      
+  }
+
+  div.heading {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+  
+  div.vision {
+    padding-left: 200px;
+    height: 170px;
+    width: 400px;
+    padding: 20px;
+    background-color: #c61c68d5;
+    background-blend-mode:color-dodge;
+    border: rgb(150, 81, 49);
+    box-sizing: content-box;
+    border-radius: 5px;
+    margin-left: 40px;
+   
+
+}
+
+.flex {
+    display: flex;
+}
+
+.flex p {
+    font-size: 20px;
+}
+
+/* footer */
+footer {
+    color: honeydew;
+    display: flex;
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:30px;
+   align-items: center;
+   padding-inline-end: 10px;
+}
