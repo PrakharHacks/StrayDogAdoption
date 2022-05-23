@@ -13,6 +13,7 @@
   <audio id="audio_play">
     <source src="bark_audio.mp3" type="audio/mp3">
   </audio>
+
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <!-- Brand -->
     <a class="navbar-brand" href="index.php">
